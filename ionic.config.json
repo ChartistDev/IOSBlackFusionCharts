@@ -1,5 +1,7 @@
 {
   "name": "BlackChart",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
