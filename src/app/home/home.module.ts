@@ -9,9 +9,8 @@ import { FusionChartsModule } from 'angular-fusioncharts';
 // Import FusionCharts library and chart modules
 import * as FusionCharts from 'fusioncharts';
 import * as Charts from 'fusioncharts/fusioncharts.charts';
-//import { APP_BASE_HREF } from '@angular/common';
 
-//FusionCharts.options['SVGDefinitionURL'] = 'absolute';
+FusionCharts.options['SVGDefinitionURL'] = 'absolute';
 
 FusionChartsModule.fcRoot(FusionCharts, Charts);
 
